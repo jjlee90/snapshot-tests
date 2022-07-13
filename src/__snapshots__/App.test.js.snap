@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div
+  className="d-flex justify-content-center m-5"
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "width": "18rem",
+      }
+    }
+  >
+    <div
+      className="card-body"
+    >
+      <h2>
+        Enter your GitHub Username
+      </h2>
+      <div>
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            name="name"
+            onChange={[Function]}
+            placeholder="enter username"
+            type="text"
+            value=""
+          />
+          <input
+            type="submit"
+          />
+        </form>
+      </div>
+      <div
+        className="card-title h5"
+      />
+      <p
+        className="card-text"
+      />
+    </div>
+  </div>
+</div>
+`;
